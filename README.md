@@ -23,7 +23,7 @@ To check if Terraform is installed correctly:
 If its installed correctly, you will see a version number.
 
 # About the project
-This project is the result of learning Terraform by creating a tiered infrastructure (from now being referred to as 'infra'). 
+This project creates a tiered infrastructure (from now being referred to as 'infra'). 
 This infra consists of :
 * VPC (CIDR range: 10.0.0.0/16)
 * Public Subnet (10.0.1.0/24) and its route table
@@ -38,7 +38,4 @@ Modifying the variables.tf and other functionalities.
 
 # Files used
 * ec2.tf - This is the main file which has the full infra code
-* variables.tf - This file is for variable referencing, making the main code look cleaner and promotes reusability
-
-# NOTE
-This project is still a work in progress!
+* variables.tf
