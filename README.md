@@ -29,13 +29,6 @@ This infra consists of :
 * Public Subnet (10.0.1.0/24) and its route table
 * Private Subnet (10.0.2.0/24) and its route table
 
-# Current status
-Infra with the VPC along with public and private subnets have been set up. 
-
-# What next
-Next in line, security groups, NACLs and instances.
-Modifying the variables.tf and other functionalities.
-
 # Files used
 * ec2.tf - This is the main file which has the full infra code
 * variables.tf
