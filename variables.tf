@@ -24,4 +24,3 @@ variable "public_subnet_cidr" {
 variable "private_subnet_cidr" {
     default = "10.0.2.0/24"
 }
-
