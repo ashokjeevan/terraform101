@@ -1,4 +1,4 @@
-# terraform101
+# terraform
 Creating infrastructures in AWS using Terraform
 
 # Prerequisites
